@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +39,47 @@
     transform: rotate(360deg);
   }
 }
+
+  body{
+  }
+/* start sidebar section*/
+
+.page {
+  background-color: #f1f5f9;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+}
+
+
+
+.active{
+  background-color:#f1f5f9;
+
+}
+
+.p-left{
+  margin-left:10px;
+  font-size: 20px;
+  color: #282c34;
+}
+/* end sidebar section*/
+
+
+
+/* start content section*/
+
+.content {
+  padding-left:1;
+  width: calc(100% - 250px);
+}
+
+/* end content section*/
+
+
+
+
+
+
+/*  Responsive  section */
+

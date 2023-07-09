@@ -1,0 +1,92 @@
+.Plans_Container{}
+
+.Plans_Container h2{}
+
+.Plans_Container .Plans_Head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Plans_Container .Plans_Head .Plans_card{
+    padding: 20px;
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 4px;
+    margin-top: 30px;
+    margin-left: 18px;
+
+}
+
+
+.Plans_Container .Plans_Head .Plans_card .Rate_green {
+        border: 2px solid;
+        padding: 20px;
+        background-color: #16ad5c;
+        color: white;
+        border-style: groove;
+    
+}
+
+.Plans_Container .Plans_Head .Plans_card .Rate_Blue {
+    border: 2px solid;
+    padding: 20px;
+    background-color: #0d6efb;
+    color: white;
+    border-style: groove;
+}
+
+.Plans_Container .Plans_Head .Plans_card .Rate_Yellow {
+    border: 2px solid;
+    padding: 20px;
+    background-color: #ffc007 ;
+    color: white;
+    border-style: groove;
+
+}
+
+
+
+.Plans_Container .Plans_Head .Plans_card .Rate h6{
+font-size: 35px;
+font-style: italic;
+font-weight: bold;
+
+}
+
+.Plans_Container .Plans_Head .Plans_card .Rate span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Plans_Container .Plans_Head .Plans_card .PLans_Link {
+    padding-top: 3px;
+}
+
+
+
+
+.Plans_Container .Plans_Head .Plans_card .PLans_Link ul li {
+    border-bottom: 2px solid #eee;
+    padding: 11px;
+    display: flex;
+}
+
+
+ /* Responsive */
+@media (max-width: 767px) {
+    .Plans_Container .Plans_Head {
+        display: inline-block;
+        padding-left: 70px;
+    }
+
+
+}
+
+
+
+
+

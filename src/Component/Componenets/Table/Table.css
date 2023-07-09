@@ -1,0 +1,13 @@
+
+.SectionThree{
+    padding: 40px 20px 20px 20px;
+
+}
+.Container_Table {
+    padding-top: 20px;
+}
+
+.Container_Table tbody tr .image{
+    width: 30px;
+    border-radius: 50px
+}

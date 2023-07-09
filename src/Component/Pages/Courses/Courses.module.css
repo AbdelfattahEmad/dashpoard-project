@@ -1,0 +1,33 @@
+.EEE {
+    color: darkgray;
+
+}
+.container_Courses .Head_Cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.container_Courses h2 {
+    font-style: italic;
+    padding: 10px;
+}
+
+.container_Courses .Cards{ 
+    padding: 10px;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 767px) {
+    .container_Courses .Head_Cards{
+        display:inline-block;
+        padding-left: 150px;
+    }
+
+
+    
+}
+

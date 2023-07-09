@@ -1,0 +1,138 @@
+
+
+.EEE{
+    color: darkgray;
+ }
+
+
+.Container_Profile  h2{
+    font-weight: bold;
+font-style: italic;
+}
+
+
+.Container_Profile .Head_Profile {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-right: 1px solid #EEE ;
+
+}
+
+
+.Container_Profile .Head_Profile .Profil_img {
+    margin: 40px ;
+    width :200px
+    
+}
+
+.Container_Profile .Head_Profile .Profil_img img {
+    width: 100px;
+    border-radius: 25%;
+    padding-bottom: 20px;
+}
+
+
+.Container_Profile .Head_Profile .Profile_content {
+    margin: 40px;
+    width: calc(100% - 200);
+}
+
+.Container_Profile .Head_Profile .Profile_content .Head_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #eee;
+    border-top:  none;
+    border-right: none;
+}
+/* skills section 
+*/
+
+.Container_Profile .container_Two {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Container_Profile .container_Two .skills .Skills_types {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Container_Profile .container_Two .skills {
+    width: 350px;
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+}
+
+.Container_Profile .container_Two .Activity {
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+    width: calc(100% - 350px);
+
+}
+
+.Container_Profile .container_Two .Activity .items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 20px;
+
+}
+
+.Container_Profile .container_Two .Activity .items img {
+    width: 60px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+
+.Container_Profile .container_Two .skills .Skills_types .skill{
+border: 1px solid #bdbdbd;
+padding: 3px;
+background-color: rgb(238, 237, 236);
+
+
+}
+
+@media (max-width: 767px) {
+    .Container_Profile .Head_Profile {
+        display: block;
+        width: 600px;
+    }
+
+    .Container_Profile .Head_Profile .Profil_img {
+        padding-top: 20px;
+        display: block;
+        margin-left: 150px;
+    }
+
+    .Container_Profile .container_Two {
+        display: block;
+
+        
+    }
+    .Container_Profile .container_Two .skills {
+        width: auto; 
+    }
+        .Container_Profile .container_Two .Activity {
+            width: auto;
+
+        }
+
+    
+
+        }
+
+
+
+
+
+
+
+
+

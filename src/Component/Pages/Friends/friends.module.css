@@ -1,0 +1,78 @@
+.EEE{
+    color: darkgray;
+}
+
+.Container_Friends .Friends{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Container_Friends hr {
+    margin: 0;
+}
+.Container_Friends h1{
+    font-style: italic;
+    padding:  15px;
+}
+
+
+.Container_Friends .Friends .Friend_card{
+    padding: 20px;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 4px;
+    margin-top: 30px;
+    margin-left: 18px;
+
+}
+.Container_Friends .Friends .Friend_card .icons{
+    display: flex;
+    cursor: pointer;
+    
+}
+
+
+
+.Container_Friends .Friends .Friend_card .image h3{
+    font-style: italic;
+    padding: 1px;
+}
+
+
+.Container_Friends .Friends .Friend_card .image img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Container_Friends .Friends .Friend_card .Details{
+    padding: 10px;
+}
+
+
+.Container_Friends .Friends .Friend_card .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.Container_Friends .Friends .Friend_card .button span button {
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 767px) {
+    .Container_Friends .Friends{
+        display: inline-block;
+        padding-left: 100px;
+    }
+
+
+}
+
+
+

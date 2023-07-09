@@ -1,0 +1,176 @@
+ .EEE{
+    color: darkgray;
+ }
+.Container_Setting{
+    padding: 20px;
+}
+
+.Container_Setting .Head_Box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+ .Container_Setting .BoxOne,
+ .Container_Setting .BoxTwo,
+ .Container_Setting .BoxThree,
+ .Container_Setting .BoxFour,
+ .Container_Setting .BoxFive,
+ .Container_Setting .BoxSix
+{
+    padding: 20px;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    border: 1px solid #EEE;
+    box-shadow: 0 0 4px;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+.Container_Setting .Adress_Head{
+    font-size: px;
+}
+
+
+.Container_Setting .SiteControl{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: white;
+    padding: 15px;
+}
+
+
+.Container_Setting .SiteControl .Adrsss{
+    font-weight: bold;
+}
+
+
+/*Box two */
+
+.Container_Setting .BoxTwo .GenralInfo .forms input {
+    height: 45px;
+    width: 300px;
+
+}
+
+/*Box Three */
+
+.Container_Setting .BoxThree .Password{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*Box four */
+
+.Container_Setting .BoxFour .SocialConrtol .Social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #eee;
+    background-color: #eee;
+    border-radius: 4px;
+    height: 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.Container_Setting .BoxFour .SocialConrtol .Social:hover{
+    background-color: darkblue;
+    color: aliceblue;
+
+}
+
+
+.Container_Setting .BoxFour .SocialConrtol .Social img {
+    width: 48px;
+    height: 47px;
+    margin: 0 17px 0 0;
+}
+
+
+.Container_Setting .BoxFour .SocialConrtol .Social p {
+    color: darkgray;
+}
+
+
+
+
+
+
+/*Box five */
+
+
+.Container_Setting .BoxFive{}
+
+
+.Container_Setting .BoxFive .WidgetsInfo .WidgetButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.Container_Setting .BoxFive .WidgetsInfo .WidgetButton p {
+
+    margin-left: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+
+
+
+/*Box six */
+
+
+.Container_Setting .BoxSix .Backup{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.Container_Setting .BoxSix .Backup p {
+    margin-left: 16px;
+    font-weight: 700;
+    margin-top: 8px;
+
+}
+.Container_Setting .BoxSix .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Container_Setting .BoxSix .icon .item{
+    padding-top: 20px;
+    border: 3px solid #eee;
+    width: 105px;
+    height: 85px;
+}
+.Container_Setting .BoxSix .icon .item:hover{
+    border-color: darkblue;
+    color: darkblue;
+}
+
+/*Responsive */
+
+
+@media (max-width: 767px) {
+    .Container_Setting .Head_Box{
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+
+
+
